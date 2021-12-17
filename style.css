@@ -1,0 +1,33 @@
+h1{
+    font-size: 40px;
+}
+.orange{
+    color: orange;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.SIZE{
+    width: 100%;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.link-button{
+    background-image: linear-gradient( lightsalmon, tomato);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.top-banner{
+    margin-bottom: 10px;
+}
+#down{
+    margin-top: 10%;
+}
