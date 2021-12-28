@@ -5,7 +5,9 @@ h1{
     color: orange;
 }
 body{
+    margin: 0px;
     font-family: 'Poppins', sans-serif;
+    
 }
 .SIZE{
     width: 100%;
@@ -30,4 +32,55 @@ body{
 }
 #down{
     margin-top: 10%;
+}
+#hover-apply:hover{
+    border: solid;
+    border-color: black;
+    color: blanchedalmond;
+    margin-right: 70%;
+    background: black;
+    border-radius: 5%;
+    padding-left: 2%;
+}
+.link-button:hover{
+    border: solid lightsalmon;
+}
+.top-banner{
+    background-image: url("top-banner.png");
+}
+section{
+    height: 500px;
+}
+.down-banner{
+    background-image: url("dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#side{
+    margin-left: 2%;
+}
+.shadow{
+    box-shadow: 10px 10px 40px gray;
+    height: 290px;
+    border-radius: 5px;
+}
+.down-bg{
+    background-image: url("exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#left-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#left-border01{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
